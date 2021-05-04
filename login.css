@@ -17,6 +17,22 @@ min-height: 400px;
 border-radius: 5px;
 margin: 2%auto;
 padding: 2%;
-background-color: rgb(116, 5, 5);
+background-color: rgb(168, 161, 161);
+}
+form .container{
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header{
+    margin: 2%auto 10%auto;
+    text-align: center;
+}
+header h2{
+font-size: 200%;
+font-family: 'Courier New', Courier, monospace;
+color: black;
 }
 
