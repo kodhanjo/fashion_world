@@ -1,0 +1,12 @@
+/* global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* the body rules */
+body{
+    background-color: blanchedalmond;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
