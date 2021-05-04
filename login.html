@@ -1,35 +1,47 @@
-<div class="overlay">
-    <form>
-        <!-- this contains all items in the form. -->
-        <div class="container">
-            <header class="head">
-                <h2> Login</h2>
-            </header>
-            <!-- the end of the header content -->
-            <br>
-            <div class="content">
-                <span class="input">
-                    <p>Email</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="overlay">
+        <form>
+            <!-- this contains all items in the form. -->
+            <div class="container">
+                <header class="head">
+                    <h2> Login</h2>
+                </header>
+                <!-- the end of the header content -->
+                <br>
+                <div class="content">
+                    <span class="input">
+                        <p>Email</p>
+                    </span>
+                    <!-- input your email -->
+                    <input class="form-input" id="text-input" type="text" placeholder="Email" required>
+                <br>
+                <span class="content">
+                    <p>Password</p>
+                    <!-- input your password -->
+                    <input class="form-input" type="password" placeholder="Password" id="pwd" name="password" required>
                 </span>
-                <!-- input your email -->
-                <input class="form-input" id="text-input" type="text" placeholder="Email" required>
-            <br>
-            <span class="content">
-                <p>Password</p>
-                <!-- input your password -->
-                <input class="form-input" type="password" placeholder="Password" id="pwd" name="password" required>
-            </span>
-            <br>
-            <button class="log-in"> Login</button>
-            <!-- other buttons in this overlay -->
+                <br>
+                <button class="log-in"> Login</button>
+                <!-- other buttons in this overlay -->
+                </div>
+                <div class="rest-reg-container">
+                    <button class=" btn-submits-rest-pass">Reset Password</button>
+                    <button class="btn-submits-reg">Register</button>
+                </div>
+                <!-- container ends here -->
             </div>
-            <div class="rest-reg-container">
-                <button class=" btn-submits-rest-pass">Reset Password</button>
-                <button class="btn-submits-reg">Register</button>
-            </div>
-            <!-- container ends here -->
-        </div>
-        <!-- the form ends here -->
-    </form>
-
-</div>
+            <!-- the form ends here -->
+        </form>
+    
+    </div>
+</body>
+</html>
