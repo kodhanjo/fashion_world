@@ -56,4 +56,14 @@ input[class="form-input"]{
 input[id="text-input"]{
     width: 210px;
 }
-
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+button{
+    display: inline-block;
+    color: #252537;
+    width: 250px;
+    height: 50px;
+    padding: 0px 20px;
+}
