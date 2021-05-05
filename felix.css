@@ -17,6 +17,171 @@ font-size: 1.3em;
     margin: 0.7em;
 }
 
+#header .row .col1
+{
+    max-width: 100%;
+    overflow: hidden;
+}
+#header .row .col1 img
+{
+ max-width: 100%;
+}
+#header .row .col2
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header .row .col2 h1
+{
+    font-size: 3em;
+    font-weight: 1000;
+} 
+#header .row .col2 p
+{
+    font-size: 20px;
+}
+#header .row .col2 button
+{
+    background-color: #5C1B1B;
+    color: #fff;
+    font-size: 1.3em;
+    border-radius: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
+}
+/* =================Exhibitions================= */
+.exhibitions h1
+{
+    font-size:1.7em;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   font-weight: 1000;
+   color: #5C1B1B;
+}
+.exhibitions .exhibitions-body
+{
+    background-color: #DEDEDE;
+    border-radius: 10px;
+    padding-top: 5% ;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 5%;
+}
+.exhibitions .exhibitions-body h1
+{
+    font-size: 1.7em;
+    color: #000;
+    font-weight: 1000;
+}
+.exhibitions .exhibitions-body .row-1 p
+{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.exhibitions .exhibitions-body .row-1 h5
+{
+    font-weight: 600;
+}
+.exhibitions .exhibitions-body .col-image
+{
+    max-height: 20em;
+}
+.exhibitions .exhibitions-body .col-2
+{
+    padding-left: 6%;
+}
+.exhibitions .exhibitions-body .col-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.exhibitions .exhibitions-body .about-fair
+{
+    padding:3%;
+}
+.exhibitions .exhibitions-body .about-fair h4
+{
+    font-weight: 800;
+}
+.exhibitions .exhibitions-body .about-fair .button
+{
+   text-align: center;
+   margin:auto;
+   width:30%;
+}
+.exhibitions .exhibitions-body .about-fair .button a
+{
+    padding:8px;
+    width:80%;
+    border-radius: 9px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2em;
+  background-color: #2F0A0A;
+}
+
+/* ==================Register======================= */
+.register
+{
+    
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    width: 40%;
+    margin: 4% auto 5%;
+    font-weight: 600;
+    padding: 4%;
+}
+.register h3
+{
+    text-align: center;
+    margin:1% auto 6%;
+    font-weight: 600;
+}
+
+.register .btn-class
+{
+    text-align: center;
+}
+.register button
+{
+    margin: 5px auto 4px;
+    background-color: #601D1D;
+    font-weight: 600;
+    color: white;
+    width:12em;
+    padding: 5px;
+    text-align: center;
+}
+.register .row2
+{
+    margin: 10px auto 10px;
+    width: 90%;
+}
+.register .row2 div
+{
+    text-align: center;
+}
+.register button:hover
+{
+    color:wheat;
+}
+.register a
+{
+    text-decoration: none;
+    color: black;
+}
+.register a:hover
+{
+    color:#601D1D;
+}
+
 /* ============footer===================== */
 #footer
 {
@@ -51,10 +216,91 @@ color: white;
     margin-right: 1em;
 }
 
-
 /* MEDIA QUERY */
 @media only screen and (max-width: 600px) 
 {
+
+    /*=============header section==================== */
+   
+    #navbar .row
+    {
+        height: 80vh;
+    }
+    #header .row .col1
+    {
+        max-width: 100%;
+        overflow: hidden;
+    }
+   #header .row .col2
+    {
+        padding: 20%;
+    }
+   
+    #header .row .col2 h1
+    {
+        font-size: 1.7em;
+    } 
+    #header .row .col2 p
+    {
+        font-size: 13px;
+    }
+    #header .row .col2 button
+    {
+        background-color: #5C1B1B;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 1.2em;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    /* ==============Exhibitions=================== */
+    .exhibitions .exhibitions-body .about-fair .button
+    {
+    text-align: center;
+    margin:auto;
+    width:70%;
+  
+    }
+
+    .exhibitions .exhibitions-body .about-fair .button a
+    {
+        padding:8px;
+        width:80%;
+        border-radius: 9px;
+        color: #fff;
+        font-weight: 800;
+        font-size: 1.2em;
+    background-color: #2F0A0A;
+    }
+   
+    /* ==================Register======================= */
+    .register
+    {
+        width: 70%;
+        margin: 3% auto 5%;
+        font-size: 13px;
+    }
+    .register h3
+    {
+        margin:5% auto 6%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .register button
+    {
+        font-size: 13px;
+    }
+    .register .row2
+    {
+        margin: 10px auto 10px;
+        width: 90%;
+    }
+    .register .row2 div
+    {
+        text-align: center;
+    }
+   
     /* ============footer===================== */
    
     #footer .col1, .col2
@@ -75,108 +321,5 @@ color: white;
         margin-right: 1em;
     }
 
-}
-/* global rules */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/* the body rules */
-body{
-    background-color: blanchedalmond;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-form{
-width: 350px;
-height: auto;
-min-height: 400px;
-border-radius: 5px;
-margin: 2%auto;
-padding: 2%;
-background-color: #c4c4c4;
-}
-form .container{
-    display: flex;
-    display: -webkit-flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-header{
-    margin: 2%auto 10%auto;
-    text-align: center;
-}
-header h2{
-font-size: 200%;
-font-family: 'Courier New', Courier, monospace;
-color: black;
-}
-.input-cont{
-    background: #fff;
-    color: #333;
-    padding: 10px 0px 9px 6px;
-    border-radius: 4px 0px 0px 4px;
-}
-input[class="form-input"]{
-    width: 200px;
-    height: 50px;
-    margin-top: 2%;
-    padding: 15px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5e6472;
-    outline: none;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-}
-input[id="text-input"]{
-    width: 210px;
-}
-input:focus {
-    transform: translateX(-2px);
-    border-radius: 5px;
-}
-button{
-    display: inline-block;
-    color: #252537;
-    width: 100px;
-    height: 50px;
-    padding: 0px 20px;
-    background: #fff;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.2s linear;
-    margin: 7% auto;
-    letter-spacing: 0.05em;
-}
-.submits{
-    float: left;
-    width: 45%;
-    margin: left 2%;
-    display: inline-block;
-}
-.rest-pass{
-    background: transparent;
-}
-.log-in{
-    background: #601d1d;
-    color: whitesmoke;
-}
-button:hover{
-    transform: translateY(3px);
-    box-shadow: none;
-    animation: ani9 0.3s ease-in-out infinite altenate;
-}
-@keyframes ani9{
-    0%{
-        transform: translateY(3px);
-    }
-    100%{
-        transform: translateY(5px);
-    }
+
 }
