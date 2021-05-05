@@ -85,3 +85,20 @@ button{
 .rest-pass{
     background: transparent;
 }
+.log-in{
+    background: #601d1d;
+    color: whitesmoke;
+}
+button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+    animation: ani9 0.3s ease-in-out infinite altenate;
+}
+@keyframes ani9{
+    0%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
