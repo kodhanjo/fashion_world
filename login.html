@@ -12,13 +12,10 @@
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
      <!-- css link -->
-     <link rel="stylesheet" type="text/css" href="home.css" >
-     <link rel="stylesheet" href="login.css">
-     
+     <link rel="stylesheet" type="text/css" href="felix.css">
     <title>Fashion</title>
   </head>
   <body>
-    <!-- start of navbar -->
   <section id="header">
     <div class="container" >
       <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2 ">
@@ -49,88 +46,63 @@
            
           </ul>
         </div>
-      </nav>
- 
+      </nav><!-- end of navbar  -->
+           
     </div>
   </section>
-   <!--end of  navbar -->
 
+  
 
-   
-   <div class="overlay">
-    <form>
-        <!-- this contains all items in the form. -->
-        <div class="container">
-            <header class="head">
-                <h2> Login</h2>
-            </header>
-            <!-- the end of the header content -->
-            <br>
-            <div class="content">
-                <span class="input-cont">
-                    <!-- <p>Email</p> -->
-                </span>
-                <!-- input your email -->
-                <input class="form-input" id="text-input" type="text" placeholder="Email" required>
-            <br>
-            <span class="content-1">
-                <!-- <p>Password</p> -->
-                <!-- input your password -->
-                <input class="form-input" type="password" placeholder="Password" id="pwd" name="password" required>
-            </span>
-            <br>
-            <button class="log-in"> Login</button>
-            <!-- other buttons in this overlay -->
+  <div class="register"> 
+      <h3>Register</h3>
+          <form>
+            <div class="form-group row">
+              <label class="col-sm-5 col-form-label">Email</label>
+              <div class="col-sm-7">
+                <input type="email"  class="form-control">
+              </div>
             </div>
-            <div class="rest-reg-container">
-                <button class=" btn-submits-rest-pass">Reset Password</button>
-                <button class="btn-submits-reg">Register</button>
-            </div>
-            <!-- container ends here -->
-        </div>
-        <!-- the form ends here -->
-    </form>
-
-</div>
-
-
-
-  <!-- start of footer -->
-  <section id="footer">
-    <div class="container">
-      <div class="row mt-3">
-        <div class="col-md-6 col-12 col1">
-          <h3>QUICK LINKS</h3>
-            <div class="li"><a href="exhibitions.html">Latest Exhibitions</a></div>
-            <div class="li"><a href="exhibitions.html">Shop with us</a></div>
-            <div class="li">
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-            <div class="li">Designed by Kelvin Kipchumba Koech</div>
-        </div>
-        <div class="col-md-6 col-12 col2">
-          <h3>CONTACT INFORMATION</h3>
-            <div class="li">Luthuli Avenue, opposite Carlcare Nairobi, Kenya</div>
-            <div class="li">+254725801772</div>
-            <div class="li">contact@topkenyanfashions.co.ke</div>
-            <div class="li"> 
-              <form class="form-inline">
-                <div class="form-group mx-sm-0 mb-2">
-                  <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            <div class="form-group row">
+                <label class="col-sm-5 col-form-label">Username</label>
+                <div class="col-sm-7">
+                  <input type="text"  class="form-control">
                 </div>
-                <button type="submit" class="btn btn-secondary mx-sm-2 mb-2">Subscribe</button>
-              </form>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-5 col-form-label">Phone Number</label>
+                <div class="col-sm-7">
+                  <input type="text"  class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-5 col-form-label">Password</label>
+                <div class="col-sm-7">
+                  <input type="password"  class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-5 col-form-label">Confirm Password</label>
+                <div class="col-sm-7">
+                  <input type="password"  class="form-control">
+                </div>
+            </div>
+            <div class="btn-class"><button class="btn">Register</button></div>
+          </form>
+
+          <div class="row row2">
+            <div class="col-sm-6">
+               Register with Google
+            </div>
+            <div class="col-sm-6">
+              <a href="login.html">Login</a> 
             </div>
         </div>
+  </div>
 
-      </div>
-    </div>
-  </section>
-   <!-- end of footer -->
 
-    <!-- js -->
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
