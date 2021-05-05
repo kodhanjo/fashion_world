@@ -1,3 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*=============header section==================== */
+#header span
+{
+    font-size:1.3em;
+    font-weight: 1000;
+    color: #5C1B1B;
+}
+#header .navbar
+{
+font-size: 1.3em;
+}
+#header .navbar ul li
+{
+    margin: 0.7em;
+}
 /* global rules */
 *{
     padding: 0;
