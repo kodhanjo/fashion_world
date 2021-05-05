@@ -16,6 +16,66 @@ font-size: 1.3em;
 {
     margin: 0.7em;
 }
+
+/* ============footer===================== */
+#footer
+{
+padding: 2%  4% 9% 9% ;
+background-color: #3F3D3D;
+color: white;
+}
+#footer .col1, .col2
+{
+ margin-top: 4%;
+}
+#footer h3
+{
+   font-size: 1.5em;
+}
+#footer .li
+{
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
+#footer .li a
+{
+    text-decoration: none;
+    color: white;
+}
+#footer .li a:hover
+{
+    color: rgb(187, 125, 125);
+}
+#footer .li .fa
+{
+    margin-right: 1em;
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) 
+{
+    /* ============footer===================== */
+   
+    #footer .col1, .col2
+    {
+    margin-top: 10%;
+    }
+    #footer h3
+    {
+    font-size: 1.3em;
+    }
+    #footer .li
+    {
+        font-size: 1em;
+        margin-top: 1.2em;
+    }
+    #footer .li .fa
+    {
+        margin-right: 1em;
+    }
+
+}
 /* global rules */
 *{
     padding: 0;
@@ -56,8 +116,8 @@ color: black;
 .input-cont{
     background: #fff;
     color: #333;
-    padding: 13px 0px 12px 8px;
-    border-radius: 5px 0px 0px 5px;
+    padding: 10px 0px 9px 6px;
+    border-radius: 4px 0px 0px 4px;
 }
 input[class="form-input"]{
     width: 200px;
